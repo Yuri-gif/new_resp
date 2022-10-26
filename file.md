@@ -91,3 +91,9 @@ git push origin origin/develop:master
 Добавить ветку test в удаленный репозиторий origin, указывающую на коммит ветки develop:
 
 git push origin origin/develop:refs/heads/test
+
+cd repo
+git checkout -b master_feature #создаём новую ветвь и переключаемся на неё
+git add filename
+git commit -m 'implement mega feature'
+git push origin master_feature 
